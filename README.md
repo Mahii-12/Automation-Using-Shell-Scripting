@@ -13,6 +13,11 @@
 * It extracts error messages from a specified log file, filters out irrelevant data, counts the number of errors, and saves the errors to a text file for further analysis or 
   reporting.
 
+> ## Automation of System Maintenance Script:
+
+* Created script that automates various system maintenance tasks.
+* It prompts the user for confirmation before proceeding, creates a log file to track maintenance activities, checks disk space usage, removes old log files, restarts the Apache service, and sends an email report to the system administrator with the maintenance log attached.
+
 
 
 
