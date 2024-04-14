@@ -16,8 +16,8 @@ ERRORS=$(grep "error" "$LOG_FILE")
 ERRORS=$(echo "$ERRORS" | sed -e "s/.*error: //" -e "s/ at .*$//")
 
 # Count the number of errors
-ERROR_COUNT=$(echo "$ERRORS" | wc -l)
+E_COUNT=$(echo "$ERRORS" | wc -l)
 
 # Display the results
-echo "Found $ERROR_COUNT errors:"
+echo "Found $E_COUNT errors:"
 echo "$ERRORS" > errors.txt
