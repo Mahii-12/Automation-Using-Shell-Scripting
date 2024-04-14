@@ -1,6 +1,6 @@
 # Automation-Using-Shell-Scripting
 
-## > File Backup using Shell Script:
+> File Backup using Shell Script:
 
 * A script designed to perform file backup using a shell script.
 *  It specifies a source directory containing the files to be backed up and a destination directory where the backups will be stored.
