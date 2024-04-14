@@ -1,7 +1,7 @@
 #!/bin/bash
 
 SRC_DIR="/var/my_files/doc"
-DST_DIR="new_files/backup"
+DST_DIR="/new_files/backup"
 
 # Check if source directory exists
 if [ ! -d "$SRC_DIR" ]; then
